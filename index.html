@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <h1 id="title"><em><u> Survey Form for Archana Sharma </em></u></h1>
+  <p id="description">A small survey to let me know how you feel about me.</p>
+</head>
+<body>
+  <form id="survey-form">
+    <label for="name" id="name-label" ><strong><u>Name :</u></strong></label>      
+    <input id="name" type="text" name="myname" placeholder="Name of Surveyour" required> <br>
+    <label for="email" id="email-label"><strong><u>Email Address :</u></strong></label>
+    <input id="email" type="email" name"emailaddr" placeholder="Email address" required><br>
+    <label for="mnumber" id="mnumber-label"><strong><u>Mobile Number :</u></strong></label>
+    <input id="mnumber" type="tel" name="mnumber" placeholder="Mobile Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+    <label for="number" id="number-label"><strong><u>Years Of Friendship:</u></strong></label>
+    <input type="number" id="number" name="years" min="0" max="100" placeholder="years"><br>
+    <label for="dropdown" id="fav"><strong><u>Favourite thing you love about her :</u></strong></label>
+      <select id="dropdown">
+        <option disabled selected value >Select</option>
+        <option value="smile" >Smile</option>
+        <option value="loving">Integrity </option>
+        <option value="helpful">Self-confidence </option>
+        <option value="cooking">Communication </option>
+        <option value="art">Food </option>
+    </select><br>
+    <div id="place"> <strong><u>Place where you met first :</u></strong></div>
+    <div id="placeoption">
+    <label for="school">
+      <input type="radio" id="school" name="school-college-office" value="school">School</label><br>
+    <label for="college">
+    <input type="radio" id="college" name="school-college-office" value="college">College</label><br>
+      <label for="office">
+    <input type="radio" id="office" name="school-college-office" value="office">Office</label><br>
+      <label for="train">
+    <input type="radio" id="train" name="school-college-office" value="train">Train</label><br>
+      <label for="home">
+    <input type="radio" id="home" name="school-college-office" value="home">Home</label><br>
+    </div>
+    <div id="charc"><strong>Select from the Following attributes:</strong></div>
+    <div id="charoption">
+    <label for="short">
+      <input type="checkbox" value="shorttemp" id="short" name="characteristic">Short Tempered </label><br>
+    <label for="Intel">
+      <input type="checkbox" value="intel" id="intel" name="characteristic">Intelligent </label><br>
+    <label for="cunning">
+      <input type="checkbox" value="cunning" id="cunning" name="characteristic">Cunning </label><br>
+    <label for="sincere">
+      <input type="checkbox" value="sincere" id="sincere" name="characteristic">Sincere</label><br>
+    <label for="honest">
+      <input type="checkbox" value="honest" id="honest" name="characteristic">Honest </label><br>
+    <label for="understand">
+      <input type="checkbox" value="understand" id="understand" name="characteristic">Understanding </label><br>
+    <label for="trust">
+      <input type="checkbox" value="trust" id="trust" name="characteristic">Trustworthy </label><br>
+    <label for="depend">
+      <input type="checkbox" value="depend" id="depend" name="characteristic">Dependable </label><br>
+    <label for="material">
+      <input type="checkbox" value="material" id="material" name="characteristic">Materialistic </label><br>
+    <label for="cheer">
+      <input type="checkbox" value="cheer" id="cheer" name="characteristic">Cheerful </label><br>
+    <label for="opion">
+      <input type="checkbox" value="opion" id="opion" name="characteristic">Opinionated </label><br>
+    <label for="old">
+      <input type="checkbox" value="old" id="old" name="characteristic">Old-Fashioned </label><br>
+    <label for="enthu">
+      <input type="checkbox" value="enthu" id="enthu" name="characteristic">Enthusiastic </label><br>
+    <label for="admirable">
+      <input type="checkbox" value="admirable" id="admirable" name="characteristic">Admirable </label><br>
+    <label for="demand">
+      <input type="checkbox" value="demand" id="demand" name="characteristic">Demanding </label><br>
+    <label for="indepen">
+      <input type="checkbox" value="indepen" id="indepen" name="characteristic">Independent </label><br>
+    <label for="opti">
+      <input type="checkbox" value="opti" id="opti" name="characteristic">Optimistic</label><br>
+    </div>
+    <div id="textarea"><strong><u>What you think about Her:</u></strong></div><br>
+      <textarea id="abc" name="textarea"  placeholder="Some Good things about her.........."></textarea><br>
+    <button  id="submit"><strong>Submit Your Thoughts</strong></button>
+    
+  </form>  
+</body>  
+</html>
