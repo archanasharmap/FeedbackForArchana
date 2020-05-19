@@ -48,7 +48,7 @@ border-radius: 0.25rem;
 #email-label{grid-area:c3;}
 #email{grid-area:c4;border: 1px solid #ced4da;
 border-radius: 0.25rem;}
-#mnumber-label{grid-area: c6;}
+#mnumber-label{grid-area: c5;}
 #mnumber{grid-area: c6;border: 1px solid #ced4da;
 border-radius: 0.25rem;}
 #number-label{grid-area: c7;}

@@ -6,13 +6,13 @@
   <p id="description">A small survey to let me know how you feel about me.</p>
 </head>
 <body>
-  <form id="survey-form">
+  <form id="survey-form" method="post" action="mailto:archanasharmap@gmail.com">
     <label for="name" id="name-label" ><strong><u>Name :</u></strong></label>      
     <input id="name" type="text" name="myname" placeholder="Name of Surveyour" required> <br>
     <label for="email" id="email-label"><strong><u>Email Address :</u></strong></label>
     <input id="email" type="email" name"emailaddr" placeholder="Email address" required><br>
     <label for="mnumber" id="mnumber-label"><strong><u>Mobile Number :</u></strong></label>
-    <input id="mnumber" type="tel" name="mnumber" placeholder="Mobile Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+    <input id="mnumber" type="tel" name="mnumber" placeholder="999-999-9999" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
     <label for="number" id="number-label"><strong><u>Years Of Friendship:</u></strong></label>
     <input type="number" id="number" name="years" min="0" max="100" placeholder="years"><br>
     <label for="dropdown" id="fav"><strong><u>Favourite thing you love about her :</u></strong></label>
